@@ -25,7 +25,8 @@ One way to extend this method is to, for each desired behavior, implement a meth
 ### Example Usage of PyJS_Bridge to interact with a Counter.js module.
 See the source code for details of this implementation. 
 
-` # main.py
+`
+# main.py
 from pybridge import PyBridge
 import json
 
@@ -42,6 +43,7 @@ for i in range(100):
     r = pyjsbridge.increment_counter()
 assert r.json().get('msg') == 123
 
-bridge._stop_jsbridge() `
+bridge._stop_jsbridge()
+`
 
 ### A detailed walkthrough can be found at [learningautomaton.ca](https://learningautomaton.ca/2019/07/pyjsbridge/).
