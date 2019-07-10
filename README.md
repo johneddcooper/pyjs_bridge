@@ -1,12 +1,12 @@
-# PYJS_Bridge
+# PyJS_Bridge
 Allows running and interacting with Node JS runtimes using requests and an express API.
 
 ## Dependencies
 python 3.*
 requests 2.*
-pytest * (for testing only)
 node 8.*
 express 4.*
+pytest * (for testing only)
 
 ## Setup
 
@@ -20,7 +20,7 @@ express 4.*
 ## Usage
 One way to extend this method is to, for each desired behavior, implement a method in PyBridge.py and an associated url hook in JSBridge.js. From your python program, create an instance of PyBridge, start the bridge, send commands through it using method calls, and close the bridge when finished. 
 
-## Example Usage of PyJS_Bridge to interact with a Counter.js module.
+### Example Usage of PyJS_Bridge to interact with a Counter.js module.
 See the source code for details of this implementation. 
 
 `# main.py
