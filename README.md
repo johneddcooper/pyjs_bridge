@@ -11,10 +11,12 @@ pytest * (for testing only)
 ## Setup
 
 `pipenv install`
+
 `yarn install`
 
 ## Tests
 `pipenv shell`
+
 `pytest test_pyjsbridge.py`
 
 ## Usage
@@ -23,7 +25,7 @@ One way to extend this method is to, for each desired behavior, implement a meth
 ### Example Usage of PyJS_Bridge to interact with a Counter.js module.
 See the source code for details of this implementation. 
 
-`# main.py
+` # main.py
 from pybridge import PyBridge
 import json
 
